@@ -26,7 +26,7 @@ To use the project, follow these steps:
 If you would like to contribute to the project, please contact Roberto Vicario at <u><a href="mailto:'rvicariodev@gmail.com'">rvicariodev@gmail.com</a></u>.
 
 ## Credits
-This project was created by <strong>Roberto Vicario</strong>.
+This project was created by <strong>ROBERTO VICARIO</strong>.
 
 ## License
 This project is licensed under the MIT license. Please see the <strong>LICENSE</strong> file for more information.
