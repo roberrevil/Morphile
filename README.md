@@ -16,7 +16,6 @@ To install the project, follow these steps:
 
 ## Usage
 To use the project, follow these steps:
-
 <ol>
     <li>[Step 1]</li>
     <li>[Step 2]</li>
@@ -24,14 +23,13 @@ To use the project, follow these steps:
 </ol>
 
 ## Contributing
-If you would like to contribute to the project, please contact <u><a href="mailto:'rvicariodev@gmail.com'">Roberto Vicario at rvicariodev@gmail.com</a></u>.
+If you would like to contribute to the project, please contact Roberto Vicario at <u><a href="mailto:'rvicariodev@gmail.com'">rvicariodev@gmail.com</a></u>.
 
 ## Credits
-This project was created by <u>Roberto Vicario</u>.
+This project was created by <strong>Roberto Vicario</strong>.
 
 ## License
-This project is licensed under the MIT license. Please see the <u>LICENSE</u> file for more information.
+This project is licensed under the MIT license. Please see the <strong>LICENSE</strong> file for more information.
 
 ## Contact
-
-If you have any questions or comments about the project, please contact <u><a href="mailto:'rvicariodev@gmail.com'">Roberto Vicario at  rvicariodev@gmail.com</a></u>.
+If you have any questions or comments about the project, please contact Roberto Vicario at <u><a href="mailto:'rvicariodev@gmail.com'">rvicariodev@gmail.com</a></u>.
