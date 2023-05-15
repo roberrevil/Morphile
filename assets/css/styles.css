@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #f95738;
+  --light-font: 'Switzer-Light';
+  --bold-font: 'Switzer-Regular';
+}
+
+body {
+  background-image: url("../../assets/img/body.svg?h=dfa55d5de827253e34367541c888dcc3");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Switzer-Light'!important;
+}
+
+button {
+  width: 12rem!important;
+  height: 48px!important;
+  padding: 8px 12px;
+  font-family: 'Switzer-Regular'!important;
+  background: var(--primary-color)!important;
+  border-radius: 0!important;
+}
+
+button:hover {
+  filter: brightness(95%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Switzer-Regular'!important;
+}
+
+p {
+  font-family: 'Switzer-Light'!important;
+}
+
+input {
+  font-family: 'Switzer-Light'!important;
+}
+
+section {
+  padding: 24px;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 48px;
+  }
+}
+
