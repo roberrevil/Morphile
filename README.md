@@ -1,7 +1,8 @@
 <img src="https://github.com/roberrevil/Morphile/assets/119845903/2cd7203c-7d0a-4fc8-92ef-92a898d3b073" width=128>
 
 # Morphile
-**[morphile - morph/file]**
+
+## [morphile - morph/file]
 Morphile is a name that combines the words:
 - "Morph" refers to the ability to transform or change the form or nature of something.
 - "File" represents a collection of data that is stored and organized for easy retrieval.
