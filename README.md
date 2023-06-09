@@ -1,4 +1,4 @@
-<img src="https://github.com/roberrevil/Morphile/assets/119845903/2cd7203c-7d0a-4fc8-92ef-92a898d3b073" width=128>
+![icon](./assets/favicon/apple-touch-icon.png)
 
 # Morphile
 
