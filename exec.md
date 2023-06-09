@@ -1,0 +1,1 @@
+npx electron-packager . --platform=darwin --arch=x64 --overwrite --prune=true --out=release-builds
