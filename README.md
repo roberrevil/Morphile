@@ -1,4 +1,4 @@
-![icon](./assets/favicon/apple-touch-icon.png)
+![icon](/assets/favicon/apple-touch-icon.png)
 
 # Morphile
 
