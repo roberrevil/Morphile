@@ -26,17 +26,23 @@
                                     <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path>
                                 </svg></button>
                         </div>
-                        <div class="d-flex justify-content-end align-items-center" style="margin: 0 0 32px;"><input class="form-control-lg" type="text" id="add-key-textfield" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="key" placeholder="Key"><input class="form-control-lg" type="text" id="add-value-textfield" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="value" placeholder="Value"><button class="btn btn-success btn-lg" id="add-button" type="button" style="width: 20%;border-radius: 8px;">Add</button></div>
-                        <div class="d-flex justify-content-end align-items-center" style="margin: 0 0 32px;"><input class="form-control-lg" type="text" id="remove-key-textfield" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 80%;" name="key" placeholder="Key"><button class="btn btn-danger btn-lg" id="remove-button" type="button" style="width: 40%;border-radius: 8px;">Remove</button></div>
-                        <div class="d-flex justify-content-end align-items-center"><button class="btn btn-primary btn-lg" id="morphile-button" type="button" style="width: 50%;margin-right: 24px;border-radius: 8px;">Morphile</button><button class="btn btn-primary btn-lg" id="download-metadata-button" type="button" style="width: 50%;border-radius: 8px;">Download Metadata</button></div>
+                        <div class="d-flex justify-content-start align-items-center" style="margin: 0 0 16px;"><input class="form-control-lg" type="text" id="key-textfield" style="padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="key" placeholder="Key"><input class="form-control-lg" type="text" id="value-textfield" style="padding: 6px 12px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="value" placeholder="Value"></div>
+                        <div class="d-flex justify-content-start align-items-center" style="margin: 0 0 32px;">
+                            <div class="form-check" style="margin-bottom: 0;margin-right: 24px;"><input class="form-check-input" type="checkbox" id="formCheck-1" onclick="selectCheckbox(this)" style="margin-right: 12px;"><label class="form-check-label" for="formCheck-1">Update</label></div>
+                            <div class="form-check" style="margin-right: 24px;margin-bottom: 0;"><input class="form-check-input" type="checkbox" id="formCheck-2" onclick="selectCheckbox(this)" style="margin-right: 12px;"><label class="form-check-label" for="formCheck-2">Delete</label></div>
+                            <div class="form-check" style="margin-right: 24px;margin-bottom: 0;"><input class="form-check-input" type="checkbox" id="formCheck-3" onclick="selectCheckbox(this)" style="margin-right: 12px;"><label class="form-check-label" for="formCheck-3">Truncate</label></div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center"><button class="btn btn-light btn-lg" id="morphile-button" type="button" style="width: 50%;margin-right: 24px;border-radius: 8px;">Morphile</button><button class="btn btn-primary btn-lg" id="download-metadata-button" type="button" style="width: 50%;border-radius: 8px;">Download Metadata</button></div>
                     </div>
                 </div>
             </div><!-- End: 1 Row 1 Column -->
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/metadata.js?h=b09063cf27113e502b32b69f2b8ebc25"></script>
-    <script src="assets/js/upload.js?h=f14e51115ec47ad8996e2bb0fa30377b"></script>
+    <script src="assets/js/checked.js?h=48477a0a9180b1990b7c412837741fee"></script>
+    <script src="assets/js/metadata.js?h=d41d8cd98f00b204e9800998ecf8427e"></script>
+    <script src="assets/js/morphile.js?h=d41d8cd98f00b204e9800998ecf8427e"></script>
+    <script src="assets/js/upload.js?h=c75a33d43f762602561cf4c77a3b641b"></script>
 </body>
 
 </html>
