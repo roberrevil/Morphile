@@ -1,5 +1,3 @@
-![icon](/assets/favicon/apple-touch-icon.png)
-
 # Morphile
 
 ## [morphile - morph/file]
@@ -10,7 +8,7 @@ Morphile is a name that combines the words:
 
 ## Description
 
-Morphile is a powerful file converter software that transforms files effortlessly. Convert your documents, images, and media files in a snap!
+Boost your file organization and data retrieval with Morphile, the ultimate metadata management application. Seamlessly manage and categorize your files with ease, unlocking effortless access and enhanced organization. Experience the power of metadata optimization with Morphile.
 
 ## Installation
 
@@ -35,6 +33,7 @@ If you would like to contribute to the project, please contact Roberto Vicario a
 This project was created by **ROBERTO VICARIO**.
 
 ## License
+
 This project is licensed under the MIT license. Please see the **LICENSE** file for more information.
 
 ## Contact
