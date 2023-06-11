@@ -13,15 +13,6 @@
   },
   "build": {
     "appId": "morphile",
-    "win": {
-      "icon": "assets/img/favicon/win-desktop.ico"
-    },
-    "mac": {
-      "icon": "assets/img/favicon/macos-desktop.icns"
-    },
-    "linux": {
-      "icon": "assets/img/favicon/android-chrome-512x512.png"
-    },
     "productName": "Morphile",
     "directories": {
       "output": "dist"
