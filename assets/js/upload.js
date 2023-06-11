@@ -4,23 +4,37 @@ const card = document.getElementById('file-card');
 const fileName = document.getElementById('file-name');
 const cancel = document.getElementById('file-cancel');
 
-inputButton.addEventListener('click', () => {
+inputButton.addEventListener('click', handleInputButtonClick);
+input.addEventListener('change', handleInputChange);
+cancel.addEventListener('click', handleCancelClick);
+
+function handleInputButtonClick() {
     input.click();
-});
+}
 
-input.addEventListener('change', () => {
-  if (input.files.length === 0) {
-      alert('Nessun file caricato');
-  } else {
-      card.classList.remove('hidden');
-      fileName.textContent = input.files[0].name;
-  }
-});
+function handleInputChange() {
+    if (input.files.length === 0) {
+        alert('No files uploaded');
+    } else {
+        showFileInfo(input.files[0].name);
+    }
+}
 
+function handleCancelClick() {
+    resetInput();
+    hideCard();
+}
 
-cancel.addEventListener('click', () => {
+function showFileInfo(filename) {
+    card.classList.remove('hidden');
+    fileName.textContent = filename;
+}
+
+function resetInput() {
     input.value = '';
-    card.classList.add('hidden');
-    fileName.textContent = 'NOME_FILE';
-});
+}
 
+function hideCard() {
+    card.classList.add('hidden');
+    fileName.textContent = 'FILE_NAME';
+}

@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Switzer-Light';
-	src: url(../../assets/fonts/Switzer-Light.woff2?h=44bb7994ad2b1b8e58841610516dfe0a) format('woff2'),
-	url(../../assets/fonts/Switzer-Light.woff?h=44bb7994ad2b1b8e58841610516dfe0a) format('woff'),
-	url(../../assets/fonts/Switzer-Light.ttf?h=44bb7994ad2b1b8e58841610516dfe0a) format('truetype');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-}
