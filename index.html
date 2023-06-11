@@ -5,62 +5,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Morphile</title>
-    <meta name="twitter:description" content="Morphile is a powerful file converter software that transforms files effortlessly. Convert your documents, images, and media files in a snap!">
-    <meta property="og:type" content="website">
-    <meta name="twitter:image" content="assets/img/favicon/android-chrome-512x512.png?h=84b127b1c17603e08b95b599c7b3defb">
-    <meta property="og:image" content="assets/img/favicon/android-chrome-512x512.png?h=84b127b1c17603e08b95b599c7b3defb">
-    <meta name="twitter:title" content="Morphile">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="description" content="Morphile is a powerful file converter software that transforms files effortlessly. Convert your documents, images, and media files in a snap!">
-    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png?h=2a9665ed5b15eb97558efaf42da44e6e">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png?h=2a9665ed5b15eb97558efaf42da44e6e">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png?h=d8a50f98bf96781785c2a33cdc213234">
-    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png?h=2a9665ed5b15eb97558efaf42da44e6e">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png?h=4a7f923e5faf879a7e63bb0cae7ea3f2">
-    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png?h=84b127b1c17603e08b95b599c7b3defb">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=3f30c2c47d7d23c7a994db0c862d45a5">
-    <link rel="stylesheet" href="assets/css/Switzer-Light.css?h=44bb7994ad2b1b8e58841610516dfe0a">
-    <link rel="stylesheet" href="assets/css/Switzer-Regular.css?h=44bb7994ad2b1b8e58841610516dfe0a">
-    <link rel="stylesheet" href="assets/css/styles.css?h=0113db9939a66a3b3fbc746c3e7b4f9d">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/styles.css?h=f2d7faf3ed5568e4a4359244f9076052">
 </head>
 
 <body>
+    <header></header>
     <main>
-        <section class="d-flex flex-column justify-content-center align-items-center" style="width: 100%;min-height: 100vh;">
+        <section class="d-flex justify-content-center align-items-center" style="width: 100%;padding: 24px;min-height: 100vh;">
             <!-- Start: 1 Row 1 Column -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
-                        <div style="width: 100%;padding: 48px;border: 1px solid lightgray;background: white;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;border-radius: 12px;">
-                            <div class="d-flex justify-content-center align-items-center" style="width: 100%;margin: 0 0 16px;"><input class="form-control-lg" type="file" id="file-input" required="" style="width: 100%;font-size: x-large;padding: 96px;border-radius: 0;border: 1px dashed lightgray;background: #f5f5f5;" name="file" multiple=""></div>
-                            <div class="d-flex justify-content-start align-items-center" style="background: #252525;">
-                                <div style="width: 100%;">
-                                    <div class="dropup"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" data-bs-auto-close="outside" id="extensions-button" type="button" style="font-size: large;border-width: 0px;background: #252525!important;width: 10rem!important;">Extensions&nbsp;</button>
-                                        <div class="dropdown-menu dropdown-menu-start dropdown-menu-dark" style="margin: 0;border-radius: 0!important;background: #252525;border-width: 0px;width: 0;padding: 0;">
-                                            <div class="dropend"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="font-size: large;border-width: 0px;background: #252525!important;text-align: justify;width: 10rem!important;padding: 6px 12px;">Audio&nbsp;</button>
-                                                <div class="dropdown-menu dropdown-menu-start dropdown-menu-dark" style="margin: 0;border-radius: 0!important;background: #252525;border-width: 0px;width: 0;padding: 0;"><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">MP3</a><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">WAV</a></div>
-                                            </div>
-                                            <div class="dropend"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="font-size: large;border-width: 0px;background: #252525!important;text-align: justify;width: 10rem!important;padding: 6px 12px;">Document&nbsp;</button>
-                                                <div class="dropdown-menu dropdown-menu-start dropdown-menu-dark" style="margin: 0;border-radius: 0!important;background: #252525;border-width: 0px;width: 0;padding: 0;"><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">CSV</a><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">PDF</a></div>
-                                            </div>
-                                            <div class="dropend"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="font-size: large;border-width: 0px;background: #252525!important;text-align: justify;width: 10rem!important;padding: 6px 12px;">Image&nbsp;</button>
-                                                <div class="dropdown-menu dropdown-menu-start dropdown-menu-dark" style="margin: 0;border-radius: 0!important;background: #252525;border-width: 0px;width: 0;padding: 0;"><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">JPG</a><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">PNG</a></div>
-                                            </div>
-                                            <div class="dropend"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="font-size: large;border-width: 0px;background: #252525!important;text-align: justify;width: 10rem!important;padding: 6px 12px;">Video&nbsp;</button>
-                                                <div class="dropdown-menu dropdown-menu-start dropdown-menu-dark" style="margin: 0;border-radius: 0!important;background: #252525;border-width: 0px;width: 0;padding: 0;"><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">MOV</a><a class="dropdown-item d-flex justify-content-start align-items-center" onclick="document.getElementById(&#39;extensions-button&#39;).innerHTML = this.innerHTML" style="padding: 6px 12px;height: 48px;background: #252525;width: 5rem!important;" href="#">MP4</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><button class="btn btn-primary" id="convert-button" type="button" style="border-width: 0px;font-size: large;">Convert</button>
-                            </div>
+                    <div class="col-md-12" style="padding: 48px;"><input type="file" id="file-input" style="display: none;"><button class="btn btn-primary d-flex flex-column justify-content-center align-items-center" id="file-input-button" type="button" style="width: 100%;height: 256px;border-radius: 8px;margin: 0 0 32px;color: #252525;padding: 0;font-size: 24px;background: transparent;text-align: center;border: 4px dashed lightgray;"><i class="far fa-file" style="font-size: 48px;margin: 0 0 16px;"></i>Drag and drop or browse your file</button>
+                        <div class="d-flex justify-content-center align-items-center hidden" id="file-card" style="width: 100%;margin: 0 0 32px;padding: 12px 24px;border-radius: 8px;border: 1px solid lightgray;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 24px;margin-right: 24px;">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M0 64C0 28.65 28.65 0 64 0H229.5C246.5 0 262.7 6.743 274.7 18.75L365.3 109.3C377.3 121.3 384 137.5 384 154.5V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM336 448V160H256C238.3 160 224 145.7 224 128V48H64C55.16 48 48 55.16 48 64V448C48 456.8 55.16 464 64 464H320C328.8 464 336 456.8 336 448z"></path>
+                            </svg>
+                            <p class="text-truncate" id="file-name" style="width: 100%;margin-right: 24px;margin-bottom: 0;">FILE_NAME</p><button class="btn btn-primary" id="file-cancel" type="button" style="background: transparent;padding: 0;border-style: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-96 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 24px;color: var(--bs-danger);">
+                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                    <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path>
+                                </svg></button>
                         </div>
+                        <div class="d-flex justify-content-end align-items-center" style="margin: 0 0 32px;"><input class="form-control-lg" type="text" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="key" placeholder="Key"><input class="form-control-lg" type="text" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 50%;" name="value" placeholder="Value"><button class="btn btn-primary btn-lg" type="button" style="width: 20%;border-radius: 8px;">Add</button></div>
+                        <div class="d-flex justify-content-end align-items-center" style="margin: 0 0 32px;"><input class="form-control-lg" type="text" style="height: 38px;padding: 6px 12px;margin-right: 24px;border-radius: 8px;border: 1px solid lightgray;width: 80%;" name="key" placeholder="Key"><button class="btn btn-primary btn-lg" type="button" style="width: 40%;border-radius: 8px;">Remove</button></div>
+                        <div class="d-flex justify-content-end align-items-center"><button class="btn btn-primary btn-lg" type="button" style="width: 50%;border-radius: 8px;margin-right: 24px;">Morphile</button><button class="btn btn-primary btn-lg" id="download-metadata-button" type="button" style="width: 50%;border-radius: 8px;">Download Metadata</button></div>
                     </div>
                 </div>
             </div><!-- End: 1 Row 1 Column -->
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js?h=ec87a76bb76bd947253bfc548204865f"></script>
+    <script src="assets/js/download-metadata.js?h=958b2e26d2c35e684fa892aa95e3908d"></script>
+    <script src="assets/js/upload.js?h=c8f9cef3281d5205d0ef0e345e5e7808"></script>
 </body>
 
 </html>
