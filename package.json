@@ -1,7 +1,7 @@
 {
   "name": "morphile",
-  "version": "1.0.0",
-  "description": "Morphile Application",
+  "version": "2.0.0",
+  "description": "Morphile",
   "main": "main.js",
   "scripts": {
     "start": "electron ."

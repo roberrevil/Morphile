@@ -8,7 +8,11 @@ Morphile is a name that combines the words:
 
 ## Description
 
+<<<<<<< HEAD
 Morphile is an innovative metadata management application that streamlines file organization and enhances data retrieval.
+=======
+Boost your file organization and data retrieval with Morphile, the ultimate metadata management application. Seamlessly manage and categorize your files with ease, unlocking effortless access and enhanced organization. Experience the power of metadata optimization with Morphile.
+>>>>>>> 9236ad608e22a78c4aef2f9e835624d83f0b912a
 
 ## Installation
 
